@@ -51,4 +51,4 @@ WORKDIR $HOME
 
 # Set default container command
 ENTRYPOINT ["/data/wrapper"]
-CMD ["-batchmode", "-nographics", "-savefolderpath", "$HOME/saves/", "-configfilepath", "$HOME/config/server.cfg"]
+CMD ["-batchmode", "-dedicated", "-nographics", "-nosteamclient", "-savefolderpath", "$HOME/saves/", "-configfilepath", "$HOME/config/server.cfg"]
